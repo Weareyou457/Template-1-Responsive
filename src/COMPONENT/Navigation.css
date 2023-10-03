@@ -1,0 +1,51 @@
+ .Categories {
+    background: url("../Images/navigation.gif") repeat-x 0 0;
+    clear: both;
+    list-style-type: none;
+    height: 35px;
+    overflow: hidden;
+    border: 1px solid #CCCCCC;
+    padding-left: 0;
+}
+ .Categories-li {
+        float: left;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        padding-right: 2px;
+        background: url("../Images/divider.gif") no-repeat right 1px;
+    }
+   .Categories-a {
+        color: #112222;
+        text-decoration: none;
+        display: block;
+        padding: 8px 15px;
+    }
+
+
+/*     
+    @media screen and (max-width: 1050px) {
+
+    
+        .first{
+            width: 20%;
+        }
+        .second{
+            width: 80%;
+        }
+    } */
+    
+    
+    
+    
+    @media screen and (max-width: 800px) {
+
+        .Categories{
+            margin: 12px 12px;
+        }
+        .Categories-a{
+            padding: 3px 10px;
+        }
+    
+    }
+       
+    

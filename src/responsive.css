@@ -1,0 +1,25 @@
+.alignment{
+    justify-content: flex-start;
+}
+
+@media screen and (max-width :1000px) {
+
+    .row{
+        flex-direction: column;
+    }
+    .height-fit{
+        height: 100%;
+    }
+
+    .margin-t{
+        margin-top: 12px;
+    }
+
+    .align-change{
+        margin: 0px 35px ;
+    }
+    .alignment{
+        justify-content: center;
+    }
+}
+

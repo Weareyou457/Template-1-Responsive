@@ -1,0 +1,45 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    margin: 9px;
+}
+
+.first{
+    margin-right: 12px;
+}
+
+.second{
+    margin-left: 12px;
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    
+    .first{
+        width: 20%;
+    }
+    .second{
+        width: 80%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .container-fluid{
+        display: block;
+    }
+    .first{
+        width:100%;
+        margin: 12px 0px;
+    }
+
+    .second{
+        width: 100%;
+        margin: 10px 0px;
+    }
+   
+}

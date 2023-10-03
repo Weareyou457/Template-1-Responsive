@@ -1,0 +1,49 @@
+.centre{
+	display: block;
+	width: 935px;
+	margin: auto auto;
+	text-align: left;
+	padding: 25px 0;
+	color: #112222;
+}
+.display{
+	display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .centre{
+	width: 700px;
+	}	
+}
+
+@media screen and (max-width: 500px) {
+
+    .centre{
+	width: 500px;
+	}	
+}
+
+@media screen and (max-width: 400px) {
+
+    .centre{
+	width: 400px;
+	padding: 0px;
+	}	
+}
+
+@media screen and (max-width: 380px) {
+
+    .centre{
+	width: 380px;
+	padding: 0px;
+	}	
+}
+
+@media screen and (max-width: 360px) {
+
+    .centre{
+	width: 360px;
+	padding: 0px;
+	}	
+}
